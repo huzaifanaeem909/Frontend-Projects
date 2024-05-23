@@ -1,7 +1,7 @@
-# Frontend-Projects
-# My Project Repository
+# My Frontend-Projects Repository
 
-Welcome to my project repository. Below you can find links to various projects along with live demos and tutorials.
+Welcome to my Frontend-Projects Repository. This repository is a collection of my frontend projects demonstrating various web development techniques and frameworks.
+Below you can find links to various projects along with the live demos.
 
 ## Tutorial link
 
