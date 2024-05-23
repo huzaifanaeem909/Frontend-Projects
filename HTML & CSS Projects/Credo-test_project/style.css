@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.background-img {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url('hero-img.png') no-repeat center;
+    /* background-size: cover; */
+    /* background-position: top top; */
+}
+
+
+/* Navbar Style Start */
+
+.nav-link,
+.navbar-brand,
+.navbar-toggler-icon {
+    color: #ffffff;
+}
+.nav-link:hover,
+.navbar-brand:hover {
+    color: rgb(255, 255, 255);
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    margin: 0.5rem 3rem;
+}
+.nav-link {
+    margin: 0 1rem;
+    color: #bebebe;   
+}
+.btn-group {
+    display: none;
+}
+@media (max-width: 767.98px) {
+    .btn-group {
+        display: block;
+    }
+    .btn.dropdown-toggle {
+        background-color: transparent;
+        border: none;
+        color: #ffffff;
+    }
+    .dropdown-toggle::after {
+        display: none; /* Hide the arrow */
+    }
+    .dropdown-menu {
+        background-color: transparent;
+        border: none;
+    }
+    .dropdown-item {
+        color: #ffffff;
+    }
+}
+
+/* Navbar Style End */
+
+
+
+/* Hero Section Start */
+
+.hero-section {
+    height: 75vh;
+    position: relative;
+}
+
+.hero-section .container {
+    display: grid;
+    /* place-content: center; */
+    height: inherit;    
+}
+
+.hero-section .container .row .d-flex {
+    color: #ffffff;
+}
+
+.hero-section .container .row .d-flex h1 {
+    font-size: 3rem;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.hero-section .container .row .d-flex p {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.hero-section .container .row .d-flex .hero-intro {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: lighter;
+}
+
+.hero-section .container .row .d-flex .subtitle {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+}
+
+.hero-section .container .row .d-flex .text-center .btn-primary {
+    padding: 12px 25px;
+    border: #fab75a;
+    background-color: #fab75a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+/* Hero Section End */
+
+
+
+/* Service Section Start */
+
+.services {
+    /* height: 100vh; */
+    padding: 6rem 0;
+    background-color: #f5f5f5; /* Light background for the services section */
+    color: black;
+    text-align: center;
+}
+
+.mb-5 {
+    margin-bottom: 6rem !important;
+}
+
+.service-card {
+    text-align: left;
+    align-items: flex-start;
+}
+
+.service-card .icon {
+    font-size: 1rem;
+    background-color: #fab75a;
+    color: #fff;
+    border-radius: 50%;
+    margin: 1.1rem;
+}
+
+.service-card h3 {
+    color: #000;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.service-card .card-text {
+    margin-top: 1.1rem;
+    padding: 0 0 0 1rem;
+}
+
+/* Service Section End */
+
+
+
+/* About Section Start */
+
+.about-me {
+    /* height: 100vh; */
+    padding: 6rem 0;
+}
+
+.about-me .container .mb-4 {
+    color: black;
+    margin-bottom: 2.5rem !important;
+}
+
+.card .card-body,
+.card .card-body p {
+    padding: 0;
+}
+
+.skills {
+    position: relative;
+    border-radius: 10px;
+    padding-left: 3rem !important;
+}
+
+.skills .skill-box {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.skill-box .title {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.skill-box .skill-baar {
+    height: 4px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    margin-top: 6px;
+    border-radius: 6px;
+}
+
+.skill-baar .skill-per {
+    position: relative;
+    display: block;
+    height: 100%;
+    background: #fab95b;
+    border-radius: 6px;
+}
+
+.skill-baar .Photography {
+    width: 89%;
+}
+
+.skill-baar .Wedding {
+    width: 75%;
+}
+
+.skill-baar .Events {
+    width: 94%;
+}
+
+.skill-baar .Conferences{
+    width: 94%;
+}
+
+.skill-per .toooltip {
+
+    position: absolute;
+    right: -1.4em;
+    bottom: -20px;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 2px 3px 3px 4px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #fab95b;
+}
+
+.toooltip::before {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #fab95b;
+    border-width: 5px;
+    margin-left: -5px;
+}
+
+
+@media (max-width: 991px) {
+    .skills {
+        padding: 0 12px !important;
+    }
+}
+
+/* About Section End */
+
+
+
+/* Photography Section Start */
+
+.photography {
+    /* height: 100vh; */
+    padding: 4rem 0;
+    background-color: #fab75a;
+    color: white;
+}
+
+.photography .container {
+    width: 60vw;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.carousel-inner h2 {
+    margin-bottom: 4rem;
+    font-weight: normal;
+}
+
+.carousel-item {
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+.carousel-item p {
+    font-size: 18px;
+    font-style: italic;
+    margin: 20px 0;
+}
+.carousel-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: white;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+
+/* Photography Section End */
+
+
+
+/* Blog Section Start */
+
+.blog-post {
+    /* height: 100vh; */
+    padding: 6rem 0;
+    background-color: #f5f5f5; /* Light background for the blog section */
+    color: black;
+}
+
+.card-body .date {
+    font-size: 0.85rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.card-body .card-text {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+
+.card .ms-4 .card-body .mb-5 {
+    color: #fab75a;
+    margin-bottom: 2.8rem !important;
+}
+
+@media (max-width: 991px) {
+    .blog-post .container .container .row .col-12 {
+        margin-bottom: 3rem;
+    }
+}
+
+/* Blog Section End */
+
+
+
+/* Contact Section Start */
+
+.contact {
+    /* height: 100vh; */
+    padding: 7rem 0;
+    background-color: #fab75a;
+    color: white;
+}
+
+.contact .container .contact-form {
+    background-color: #fab75a;    /* Adjust color to match the image */
+}
+.contact-form .form-control {
+    border: none;
+    border-bottom: 0.13rem solid #FAF9F6;
+    opacity: 0.6;
+    background: none;
+    border-radius: 0;
+    color: #FAF9F6;
+}
+.contact-form .form-control:focus {
+    box-shadow: none;
+    border-bottom: 0.13rem solid #FAF9F6;
+}
+
+.contact-form .form-control::placeholder {
+    color: #FAF9F6;
+    opacity: 1; /* Override default opacity */
+}
+
+.contact .container .contact-form form .btn-primary {
+    border: #343a40;
+    background-color: #343a40;
+    padding: 12px 25px;
+    border-radius: 25px;
+}
+
+/* Contact Section End */
+
+
+/* Footer Section End */
+
+footer{
+    padding: 6.5rem 0;
+    background-color: #f7f9fa;
+    color: #000;
+}
+
+footer .container .row .col-12 .text-color {
+    color: gray;
+}
+
+footer .container .row .col-12 .fs-0 {
+    font-size: 1.05rem;
+}
+
+footer .container .text-center .text-color {
+    color: gray;
+}
+
+/* Footer Section End */
+
+
+@media (max-width: 991px) {
+    .services,
+    .about-me,
+    .photography,
+    .blog-post,
+    .contact, 
+    footer {
+        padding: 2.5rem 0;
+    }
+}
+
