@@ -1,0 +1,118 @@
+.hero-container {
+    font-family: "Josefin Sans", "Roboto", sans-serif;
+}
+
+.hero-caption {
+    padding: 100px 30px 0 30px;
+    position: relative;
+    text-align: center;
+    color: #00095e;
+}
+
+.hero-caption h1 {
+    font-size: 60px;
+    line-height: 1.2;
+}
+
+.underline-caption {
+    margin-bottom: 8px;
+    background: linear-gradient(#fff 83%, #FFC800 20%);
+    background-position-y: -17px;
+    width: fit-content;
+    display: inline-block;
+}
+
+.hero-caption p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.hero-caption button {
+    padding: 24px 55px;
+    background: linear-gradient(to bottom, #00095e 0%, #0c0c1f 100%);;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.hero-caption button:hover {
+    background: #FFC800;
+    outline: none;
+}
+
+.hero-caption button a {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hero-image-car {
+    background: url("./assets/h1_hero1.png.webp");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -20px;
+}
+
+.hero-image-car img {
+    display: block;
+    margin: auto;
+    padding: 15% 0 5%;
+    max-width: 53%;
+}
+
+@media screen and (max-width: 950px) {
+
+    .hero-caption h1 {
+        font-size: 42px;
+    }
+
+    .hero-caption p {
+        font-size: 19px;
+    }
+
+    .hero-caption button {
+        padding: 20px 32px;
+    }
+
+    .underline-caption {
+        background-position-y: -11px;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+
+    .hero-caption {
+        padding: 50px 15px 0;
+    }
+
+    .hero-caption h1 {
+        font-size: 22px;
+    }
+
+    .hero-caption p {
+        font-size: 15px;
+    }
+
+    .hero-caption button {
+        padding: 13px 20px;
+    }
+
+    .hero-caption button a {
+        font-size: 16px;
+    }
+
+    .underline-caption {
+        background-position-y: -6px;
+    }
+
+    .hero-image-car {
+        margin-top: 0px;
+    }
+
+}

@@ -1,0 +1,63 @@
+.section-video {
+    padding: 120px 15px;
+    margin: 0 auto;
+    max-width: 78%;
+}
+
+.video-container {
+    background: url(./assets/video-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.tour-video {
+    display: block;
+    margin: auto;
+    padding: 17% 0;
+    max-width: 60%;
+}
+
+.tour-video img {
+    margin-bottom: 20px;
+}
+
+.tour-video h3 {
+    font-family: "Josefin Sans", "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+
+@media screen and (max-width: 950px) {
+
+    .section-video {
+        padding: 90px 50px;
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .tour-video {
+        padding: 13% 0;
+    }
+    
+}
+
+@media screen and (max-width: 620px) {
+
+    .section-video {
+        padding: 60px 10px;
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .tour-video {
+        padding: 10% 0;
+    }
+    
+    .tour-video h3 {
+        font-size: 22px;
+    }
+}

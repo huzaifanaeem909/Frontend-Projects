@@ -1,0 +1,22 @@
+.insta-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.insta-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 620px) {
+    
+    .insta-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .insta-image:nth-child(n+3) {
+        display: none;
+    }
+
+}

@@ -1,0 +1,159 @@
+.services-container {
+    font-family: "Roboto", sans-serif;
+    padding: 120px 15px 100px 15px;
+    margin: 0 auto;
+}
+
+.services-title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.services-title span {
+    font-size: 16px;
+    color: #7EA0FF;
+    margin-bottom: 10px;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+}
+
+.services-title h2{
+    font-size: 50px;
+    font-family: "Josefin Sans", "Roboto", sans-serif;
+    color: #00095E;
+    margin-bottom: 22px;
+    line-height: 1.4;
+}
+
+.services-cards {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.event-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+
+.carousel-button {
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: rgba(32,69,112,0.3);;
+    opacity: 0.5;
+}
+  
+.carousel-button:hover {
+    color: #00095E;
+}
+  
+.carousel-button i {
+    font-size: 2rem;
+}
+
+.event-card {
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.event-card:hover {
+    transform: scale(1.02);
+}
+
+.event-card img {
+    width: 100%;
+}
+
+.event-detail-container {
+    border-radius: 0px 0px 5px 5px;
+    padding: 30px 20px 30px 23px;
+    box-shadow: 0 10px 15px rgba(0, 9, 94, 0.06);
+}
+
+.event-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.event-location {
+    font-family: "Josefin Sans", "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #00095E;
+}
+
+.event-price {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #7EA0FF;
+}
+
+.event-date {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    color: #00095E;
+}
+
+.event-date a {
+    text-decoration: none;
+    color: #7EA0FF;
+    background-color: rgba(126,160,255,0.05);
+    padding: 9px 15px;
+    border-radius: 19px;
+    margin-right: 13px;
+}
+
+@media screen and (max-width: 950px) {
+
+    .services-title h2 {
+        font-size: 42px;
+    }
+    
+    .event-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .event-card:last-child {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 620px) {
+
+    .services-title span {
+        font-size: 14px;
+    }
+
+    .services-title h2 {
+        font-size: 24px;
+    }
+    
+    .event-cards {
+        grid-template-columns: 0.96fr;
+        justify-content: center;
+    }
+
+    .event-card:nth-child(2) {
+        display: none;
+    }
+
+    .carousel-button {
+        display: none;
+    }
+
+    .services-container {
+        padding: 70px 0 40px;
+    }
+
+}

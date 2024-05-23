@@ -1,0 +1,134 @@
+.footer-container {
+    padding: 114px 0 0;
+    background: linear-gradient(to right, #1a2d6d, #0e183a);
+    font-family: "Roboto", sans-serif;
+    margin-top: -5px;
+}
+
+.footer-container a {
+    text-decoration: none;
+}
+
+.footpanel-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    max-width: 80%;
+    margin: 0 auto;
+    column-gap: 30px;
+}
+
+.footpanel-1 ul {
+    padding: 0 15px;
+    list-style-type: none;
+}
+
+.footpanel-1 li {
+    margin-bottom: 18px;
+}
+
+.footpanel-1 ul h4 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 28px;
+}
+
+.footer-socials {
+    margin-bottom: 40px;
+}
+
+.footer-socials img {
+    margin-bottom: 32px;
+}
+
+.footer-socials p {
+    color: #8A8FBE;
+    line-height: 1.8;
+    margin-bottom: 32px;
+}
+
+.footer-socials a {
+    color: #fff;
+    font-size: 22px;
+    padding: 9px;
+}
+
+.footer-socials i:hover {
+    color: #FFC800;
+    transform: scale(1.4);
+}
+
+.footpanel-navigation a, .footpanel-services a {
+    color: #8A8FBE;
+}
+
+.footpanel-navigation a:hover, .footpanel-services a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footpanel-contact p {
+    color: #8A8FBE;
+    line-height: 1.4;
+}
+
+.footpanel-contact a {
+    color: #FFC800;
+    font-size: 22px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.footpanel-2 {
+    padding: 45px 15px 1px 15px;
+    margin: 0 auto;
+    max-width: 78%;
+    text-align: center;
+}
+
+.footpanel-2 p {
+    font-size: 14px;
+    color: #8A8FBE;
+    line-height: 2;
+    margin-bottom: 15px;
+}
+
+.footpanel-2 i {
+    color: #7EA0FF;
+}
+
+.footpanel-2 a {
+    color: #FFC800;
+}
+
+@media screen and (max-width: 950px) {
+
+    .footpanel-1 {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 150px;
+    }
+    
+}
+
+@media screen and (max-width: 750px) {
+
+    .footer-container {
+        padding: 80px 0 0;
+    }
+
+    .footpanel-1 {
+        max-width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+    .footpanel-navigation, .footpanel-services {
+        margin-bottom: 30px;
+    }
+
+    .footpanel-2 {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    
+}

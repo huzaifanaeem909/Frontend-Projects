@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header-container {
+    font-family: "Josefin Sans", "Roboto", sans-serif;
+    font-size: 16px;
+    padding: 0 30px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.logo {
+    padding: 17px 0;
+    margin-right: 50px;
+}
+
+.header-nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.header-nav li {
+    margin-right: 30px;
+}
+
+.header-nav a {
+    padding: 40px 2px;
+    text-decoration: none;
+    color: #00095E;
+    display: block;
+    font-weight: 500;
+}
+
+.header-nav a:hover {
+    color: #007bff;
+}
+
+.header-button a {
+    font-weight: 500;
+    padding: 15px 30px;
+    margin-left: 25px;
+    color: white;
+    border-radius: 5px;
+    background-color: #FFC800;
+    
+}
+
+.header-button a:hover {
+    color: #fff;
+    background-color: #00095E;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    padding: 7px 10px;
+    margin: 5px 5px 6px;
+    cursor: pointer;
+    background-color: #222222;
+    border-radius: 4px;
+}
+
+.menu-toggle span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.1rem;
+    align-content: center;
+}
+  
+.menu-toggle i {
+    font-size: 1.3rem;
+    color: #fff;
+}
+  
+@media screen and (max-width: 950px) {
+
+    .header-container {
+        display: block;
+        padding: 0;
+    }
+
+    .logo {
+        padding: 10px 0 0 15px;
+    }
+
+    .header-nav ul {
+      display: none;
+    }
+  
+    .menu-toggle {
+      display: inline-block;
+    }
+  
+    .header-nav {
+      background-color: #4c4c4c;
+      padding: 5px;
+      text-align: right;
+    }
+}
