@@ -7,7 +7,7 @@ Welcome to my project repository. Below you can find links to various projects a
 
 | #   | Project               | Live Demo  | tutorial |
 |-----|-----------------------|------------|----------|
-| 01  | [3d social media icon](https://github.com/yourusername/project1) | [Live Demo](https://yourwebsite.com/demo1) | [Tutorial](https://yourwebsite.com/tutorial1) |
+| 01  | [Tralive test project](https://github.com/huzaifanaeem909/Frontend-Projects/tree/main/HTML%20%26%20CSS%20Projects/Tralive-test_project) | [Live Demo](https://yourwebsite.com/demo1)|
 | 02  | [Profile Card](https://github.com/yourusername/project2)         | [Live Demo](https://yourwebsite.com/demo2) | [Tutorial](https://yourwebsite.com/tutorial2) |
 | 03  | [Sticky Navbar](https://github.com/yourusername/project3)        | [Live Demo](https://yourwebsite.com/demo3) | [Tutorial](https://yourwebsite.com/tutorial3) |
 | 04  | [Search Bar](https://github.com/yourusername/project4)           | [Live Demo](https://yourwebsite.com/demo4) | [Tutorial](https://yourwebsite.com/tutorial4) |
