@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Test Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="global-container">
+        <div class="background-img">
+            <nav class="navbar navbar-light navbar-expand-md">
+                <div class="container-fluid justify-content-center">
+                    <div id="navcol-1" class="collapse navbar-collapse flex-grow-0">
+                        <ul class="navbar-nav text-center">
+                            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        </ul>
+                    </div>    
+                    <a class="navbar-brand" href="#">Credo</a>
+                    <div id="navcol-1" class="collapse navbar-collapse flex-grow-0">
+                        <ul class="navbar-nav text-center">
+                            <li class="nav-item"><a class="nav-link" href="#photography">Photography</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-lg-end">
+                          <li><button class="dropdown-item" type="button">Home</button></li>
+                          <li><button class="dropdown-item" type="button">About</button></li>
+                          <li><button class="dropdown-item" type="button">Services</button></li>
+                          <li><button class="dropdown-item" type="button">Photography</button></li>
+                          <li><button class="dropdown-item" type="button">Blog</button></li>
+                          <li><button class="dropdown-item" type="button">Contact</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <section class="hero-section" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center align-items-start">
+                            <h1>I'm Craig Smith</h1>
+                            <p class="subtitle">Photographer&emsp;|&emsp;Speaker</p>
+                            <p class="hero-intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate dolore, nostrum inventore quisquam totam dignissimos culpa! Eveniet.</p>
+                            <div class="text-center">
+                                <button class="btn btn-primary">Contact Me</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="services" id="services">
+            <h2 class="text-center fw-normal mb-5">Services</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="service-card col d-flex flex-row shadow p-3 bg-body-tertiary rounded">
+                            <div class="icon"><i class="fa fa-glass icon"></i></div>
+                            <div class="card-text d-flex flex-column text-start ">
+                                <h3 class="fw-normal">Wedding</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius aperiam repudiandae quis ipsa quod, reprehenderit iusto laudantium.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="service-card col d-flex flex-row shadow p-3 bg-body-tertiary rounded">
+                            <div class="icon"><i class="fa fa-video-camera icon"></i></div>
+                            <div class="card-text d-flex flex-column text-start">
+                                <h3 class="fw-normal">Events</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius aperiam repudiandae quis ipsa quod, reprehenderit iusto laudantium.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="service-card col d-flex flex-row shadow p-3 bg-body-tertiary rounded">
+                            <div class="icon"><i class="fa fa-fire icon"></i></div>
+                            <div class="card-text d-flex flex-column text-start">
+                                <h3 class="fw-normal">Conferences</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius aperiam repudiandae quis ipsa quod, reprehenderit iusto laudantium.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="service-card col d-flex flex-row shadow p-3 bg-body-tertiary rounded">
+                            <div class="icon"><i class="fa fa-magnet icon"></i></div>
+                            <div class="card-text d-flex flex-column text-start">
+                                <h3 class="fw-normal">Culture</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius aperiam repudiandae quis ipsa quod, reprehenderit iusto laudantium.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-me" id="about">
+            <div class="container">
+                <h2 class="text-left fw-normal mb-4">About Me</h2>
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="card" style="width: 100%; border: none;">
+                            <img src="hero-img.png" class="card-img-top mb-4" alt="my-img">
+                            <div class="card-body">
+                              <p class="card-text text-start mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab assumenda perferendis nam dolore est maxime beatae voluptate repellendus optio facilis minus cum recusandae harum, debitis explicabo enim fugit vitae repudiandae?
+                                <br><br>
+                              Vel incidunt ipsa, laboriosam quod, perferendis qui harum odio soluta at hic tempora ea dolor veritatis numquam maxime quibusdam fuga minus doloremque voluptate omnis! Aspernatur neque dicta animi in libero?</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="skills col-12 col-md-12 col-lg-6">
+                        <div class="skill-box">
+                            <strong class="title">Photographer</strong>
+                            <div class="skill-baar">
+                                <span class="skill-per Photography">
+                                    <span class="toooltip">89%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <strong class="title">Wedding</strong>
+                            <div class="skill-baar">
+                                <span class="skill-per Wedding">
+                                    <span class="toooltip">75%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <strong class="title">Events</strong>
+                            <div class="skill-baar">
+                                <span class="skill-per Events">
+                                    <span class="toooltip">94%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <strong class="title">Conferences</strong>
+                            <div class="skill-baar">
+                                <span class="skill-per Conferences">
+                                    <span class="toooltip">94%</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="photography" id="photography">
+            <div class="container">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <h2 class="text-center">What Client Are Sayings</h2>
+                      <div class="carousel-item active">
+                        <i class="fa fa-quote-right"></i>
+                        <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum veniam officiis placeat tempore, voluptates quis, odit mollitia neque, quisquam sint temporibus in ullam delectus modi repudiandae expedita! Cupiditate aspernatur illum adipisci recusandae beatae ea impedit.</p>
+                        <p>— Ryan Peters</p>
+                      </div>
+                      <div class="carousel-item">
+                        <i class="fa fa-quote-right"></i>
+                        <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum veniam officiis placeat tempore, voluptates quis, odit mollitia neque, quisquam sint temporibus in ullam delectus modi repudiandae expedita! Cupiditate aspernatur illum adipisci recusandae beatae ea impedit.</p>
+                        <p>— Jane Doe</p>
+                      </div>
+                      <div class="carousel-item">
+                        <i class="fa fa-quote-right"></i>
+                        <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum veniam officiis placeat tempore, voluptates quis, odit mollitia neque, quisquam sint temporibus in ullam delectus modi repudiandae expedita! Cupiditate aspernatur illum adipisci recusandae beatae ea impedit.</p>
+                        <p>— John Smith</p>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="blog-post" id="blog">
+            <div class="container ps-0 pe-0">
+                <h2 class="text-center fw-normal mb-5">Blog Posts</h2>
+                <div class="container mb-4">
+                    <div class="row">
+                      <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card border border-light-subtle">
+                            <img class="card-img-top mb-4" src="blog_1.jpg.png" alt="Card image cap">
+                            <div class="ms-4 me-4">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title mb-2">Why Photography Is Good For Business</h5>
+                                    <p class="date">May 20, 2024</p>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio placeat deleniti ipsam sunt excepturi quo error, tenetur illum fugit iusto?.
+                                    </p>
+                                    <a href="#" class="mb-5 text-decoration-none">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card border border-light-subtle">
+                            <img class="card-img-top mb-4" src="blog_2.png" alt="Card image cap">
+                            <div class="ms-4 me-4">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title mb-2">Why Photography Is Good For Business</h5>
+                                    <p class="date">May 20, 2024</p>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio placeat deleniti ipsam sunt excepturi quo error, tenetur illum fugit iusto?.
+                                    </p>
+                                    <a href="#" class="mb-5 text-decoration-none">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card border border-light-subtle">
+                            <img class="card-img-top mb-4" src="blog_3.png" alt="Card image cap">
+                            <div class="ms-4 me-4">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title mb-2">Why Photography Is Good For Business</h5>
+                                    <p class="date">May 20, 2024</p>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio placeat deleniti ipsam sunt excepturi quo error, tenetur illum fugit iusto?.
+                                    </p>
+                                    <a href="#" class="mb-5 text-decoration-none">Read More</a>
+                                </div>
+                            </div>
+                        </div>                        
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2 class="text-center fw-normal mb-5">Say Hello</h2>
+            <div class="container">
+                <div class="contact-form">
+                    <form>
+                        <div class="row mb-4">
+                            <div class="col-12 col-lg-6 col-md-6">
+                                <input type="text" class="form-control mb-4" id="firstName" placeholder="First name">
+                            </div>
+                            <div class="col-12 col-lg-6 col-md-6">
+                                <input type="text" class="form-control mb-4" id="fullName" placeholder="Full name">
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <input type="email" class="form-control mb-4" id="email" placeholder="Email address">
+                        </div>
+                        <div class="mb-4">
+                            <input type="text" class="form-control mb-4" id="subject" placeholder="Subject of the message">
+                        </div>
+                        <div class="mb-4">
+                            <textarea class="form-control mb-4" id="exampleFormControlTextarea1" placeholder="Type your message here.." rows="9"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-3 col-md-4">
+                        <h6 class="mb-4 fs-0">Credo</h6>
+                        <small class="text-color">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, animi.
+                        </small>
+                        <br><br>
+                        <p class="text-color">203 Fake St. Mountain View,<br>San Francisco, California, USA</p>
+                    </div>
+                    <div class="col-12 col-lg-2 col-md-2">
+                        <h6 class="mb-4 fs-0">Services</h6>
+                        <div class="d-flex flex-column">
+                            <a href="#" class="text-decoration-none text-color mb-2"><small>Wedding</small></a>
+                            <a href="#" class="text-decoration-none text-color mb-2"><small>Portrait</small></a>
+                            <a href="#" class="text-decoration-none text-color mb-2"><small>Photography</small></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-2 col-md-2">
+                        <h6 class="mb-4 fs-0">Resources</h6>
+                        <div class="d-flex flex-column">
+                            <a href="#" class="text-decoration-none text-color mb-2"><small>Wedding</small></a>
+                            <a href="#" class="text-decoration-none text-color mb-2"><small>Portrait</small></a>
+                            <a href="#" class="text-decoration-none text-color mb-2"><small>Photography</small></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-2 col-md-2">
+                        <h6 class="mb-4 fs-0">Quick Links</h6>
+                        <div class="d-flex flex-column">
+                            <a href="#" class="text-decoration-none text-color mb-2"><small>Wedding</small></a>
+                            <a href="#" class="text-decoration-none text-color mb-2"><small>Portrait</small></a>
+                            <a href="#" class="text-decoration-none text-color mb-2"><small>Photography</small></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-2">
+                        <h6 class="mb-4 fs-0">Follow Me</h6>
+                        <a href="#" class="text-color me-3"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="text-color me-3"><i class="fa fa-facebook-f"></i></a>
+                        <a href="#" class="text-color me-3"><i class="fa fa-instagram"></i></a>
+                        <a href="#" class="text-color me-3"><i class="fa fa-dribbble"></i></a>
+                        <a href="#" class="text-color me-3"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="text-center pt-5 pb-3">
+                    <small class="text-color">Copyright &copy; 2021 All rights reserved | This template is made with <i class="fa fa-heart-o"></i> by Colorlib</small>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
