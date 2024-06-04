@@ -3,6 +3,7 @@
 Welcome to my frontend-projects repository. This repository is a collection of my frontend projects, ranging from creating simple UI designs to complete web applications. Each project is designed to showcase different aspects of frontend development, including HTML, CSS, JavaScript, and various frameworks and libraries.
 Below, you can find links to various projects along with there live demos.
 
+
 ## Projects
 
 <div align="center">
