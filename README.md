@@ -4,7 +4,6 @@ Welcome to my frontend-projects repository. This repository is a collection of m
 Below, you can find links to various projects along with there live demos.
 
 
-
 ## Projects
 
 <div align="center">
