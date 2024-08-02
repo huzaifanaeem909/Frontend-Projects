@@ -1,6 +1,30 @@
-# My Frontend-Projects Repository
+# Frontend-Projects
 
-Welcome to my frontend-projects repository. This repository is a collection of my frontend projects, ranging from creating simple UI designs to complete web applications. Each project is designed to showcase different aspects of frontend development, including HTML, CSS, JavaScript, and various frameworks and libraries.
+Welcome to my frontend-projects repository. This repository is a collection of my frontend projects, ranging from creating simple UI designs to complete web applications. Each project is designed to showcase different aspects of frontend development, including HTML, CSS, JavaScript, and various frameworks and libraries. The projects are organized into two main categories:
+
+- [HTML & CSS Projects](#html--css-projects)
+- [JS Integrated Projects](#js-integrated-projects)
+
+## HTML & CSS Projects
+
+This folder contains projects that focus on HTML and CSS, demonstrating the ability to create well-structured, visually appealing web pages using these technologies.
+
+### Projects:
+
+- **Project 1:** Brief description of the project.
+- **Project 2:** Brief description of the project.
+- **Project 3:** Brief description of the project.
+Below, you can find links to various projects along with there live demos.
+
+## JS Integrated Projects
+
+This folder includes projects where JavaScript is integrated to add interactivity and dynamic features to web pages.
+
+### Projects:
+
+- **Project 1:** Brief description of the project.
+- **Project 2:** Brief description of the project.
+- **Project 3:** Brief description of the project.
 Below, you can find links to various projects along with there live demos.
 
 ## Projects
@@ -16,3 +40,12 @@ Below, you can find links to various projects along with there live demos.
 | 05  | [Facebook Clone](https://github.com/huzaifanaeem909/Frontend-Projects/tree/main/HTML%20%26%20CSS%20Projects/Facebook_Clone)            | [Live Demo](https://yourwebsite.com/demo5) |
 
 </div>
+
+
+## Getting Started
+
+To explore the projects:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/frontend-projects.git
