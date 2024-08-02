@@ -36,9 +36,9 @@ Here are the live demos for each of the projects. Click on the links below to ex
 |-----|-----------------------|------------
 | 01  | [Credo test project](https://github.com/huzaifanaeem909/Frontend-Projects/tree/main/HTML%20%26%20CSS%20Projects/Credo-test_project)         | [Live Demo](https://credo-test-project.netlify.app/) |
 | 02  | [Tralive test project](https://github.com/huzaifanaeem909/Frontend-Projects/tree/main/HTML%20%26%20CSS%20Projects/Tralive-test_project) | [Live Demo](https://tralive-test-project.netlify.app/)|
-| 03  | [Netflix Clone](https://github.com/huzaifanaeem909/Frontend-Projects/tree/main/HTML%20%26%20CSS%20Projects/Netflix_Clone)        | [Live Demo](https://yourwebsite.com/demo3) |
-| 04  | [Amazon Clone](https://github.com/huzaifanaeem909/Frontend-Projects/tree/main/HTML%20%26%20CSS%20Projects/Amazon_Clone)           | [Live Demo](https://yourwebsite.com/demo4) |
-| 05  | [Facebook Clone](https://github.com/huzaifanaeem909/Frontend-Projects/tree/main/HTML%20%26%20CSS%20Projects/Facebook_Clone)            | [Live Demo](https://yourwebsite.com/demo5) |
+| 03  | [Netflix Clone](https://github.com/huzaifanaeem909/Frontend-Projects/tree/main/HTML%20%26%20CSS%20Projects/Netflix_Clone)        | [Live Demo](https://nimble-druid-03fa62.netlify.app/) |
+| 04  | [Amazon Clone](https://github.com/huzaifanaeem909/Frontend-Projects/tree/main/HTML%20%26%20CSS%20Projects/Amazon_Clone)           | [Live Demo](https://clone-amazon-project.netlify.app/) |
+| 05  | [Facebook Clone](https://github.com/huzaifanaeem909/Frontend-Projects/tree/main/HTML%20%26%20CSS%20Projects/Facebook_Clone)            | [Live Demo](https://clone-facebook-project.netlify.app/) |
 
 </div>
 
