@@ -11,6 +11,14 @@ This folder contains projects that focus on HTML and CSS, demonstrating the abil
 
 ### Projects:
 
+- **Credo Test Project:**  
+  A portfolio website for a photographer, showcasing their work with a clean and professional design. This project includes galleries, an about section, and contact information, demonstrating skills in layout design and responsive web design.  
+  [View Live Demo](https://your-credo-test-link.com)
+
+- **Tralive Test Project:**  
+  A web application to explore various locations for traveling. The project features interactive maps, location details, and user-friendly navigation, highlighting the ability to design engaging and functional interfaces.  
+  [View Live Demo](https://your-tralive-test-link.com)
+  
 - **Netflix Clone:**  
   A static webpage that replicates the layout and design of Netflix's homepage. This project focuses on creating a responsive design with HTML and CSS, mimicking Netflix's look and feel.
 
