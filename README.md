@@ -56,4 +56,15 @@ This folder includes projects where JavaScript is integrated to add interactivit
 - **Project 3:** Brief description of the project.
 
 
+<div align="center">
+
+| #   | Project               | Live Demo  
+|-----|-----------------------|------------
+| 01  | [Credo Test Project](https://github.com/huzaifanaeem909/Frontend-Projects/tree/main/HTML%20%26%20CSS%20Projects/Credo-test_project)         | <a href="https://credo-test-project.netlify.app/" target="_blank">Live Demo</a> |
+| 02  | [Tralive Test Project](https://github.com/huzaifanaeem909/Frontend-Projects/tree/main/HTML%20%26%20CSS%20Projects/Tralive-test_project) | <a href="https://tralive-test-project.netlify.app/" target="_blank">Live Demo</a> |
+| 03  | [Netflix Clone](https://github.com/huzaifanaeem909/Frontend-Projects/tree/main/HTML%20%26%20CSS%20Projects/Netflix_Clone)        | <a href="https://nimble-druid-03fa62.netlify.app/" target="_blank">Live Demo</a> |
+| 04  | [Amazon Clone](https://github.com/huzaifanaeem909/Frontend-Projects/tree/main/HTML%20%26%20CSS%20Projects/Amazon_Clone)           | <a href="https://clone-amazon-project.netlify.app/" target="_blank">Live Demo</a> |
+| 05  | [Facebook Clone](https://github.com/huzaifanaeem909/Frontend-Projects/tree/main/HTML%20%26%20CSS%20Projects/Facebook_Clone)            | <a href="https://clone-facebook-project.netlify.app/" target="_blank">Live Demo</a> |
+
+</div>
 
