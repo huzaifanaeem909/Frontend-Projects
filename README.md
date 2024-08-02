@@ -11,9 +11,14 @@ This folder contains projects that focus on HTML and CSS, demonstrating the abil
 
 ### Projects:
 
-- **Project 1:** Brief description of the project.
-- **Project 2:** Brief description of the project.
-- **Project 3:** Brief description of the project.
+- **Netflix Clone:**  
+  A static webpage that replicates the layout and design of Netflix's homepage. This project focuses on creating a responsive design with HTML and CSS, mimicking Netflix's look and feel.
+
+- **Amazon Clone:**  
+  A static version of the Amazon homepage that showcases skills in building a clean and responsive e-commerce layout using HTML and CSS. This project includes features like a product grid, navigation bar, and a search bar.
+
+- **Facebook Clone:**  
+  A static page that emulates the layout of Facebook's login and profile pages. This project demonstrates proficiency in using HTML and CSS to create forms, buttons, and a responsive layout.
 Below, you can find links to various projects along with there live demos.
 
 ## JS Integrated Projects
