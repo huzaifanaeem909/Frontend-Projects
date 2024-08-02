@@ -2,8 +2,8 @@
 
 Welcome to my frontend-projects repository. This repository is a collection of my frontend projects, ranging from creating simple UI designs to complete web applications. Each project is designed to showcase different aspects of frontend development, including HTML, CSS, JavaScript, and various frameworks and libraries. The projects are organized into two main categories:
 
-- [HTML & CSS Projects](#html--css-projects)
-- [JS Integrated Projects](#js-integrated-projects)
+- [HTML & CSS Projects](https://github.com/huzaifanaeem909/Frontend-Projects/tree/main/HTML%20%26%20CSS%20Projects)
+- [JS Integrated Projects](https://github.com/huzaifanaeem909/Frontend-Projects/tree/main/JS%20Integrated%20Projects)
 
 ## HTML & CSS Projects
 
