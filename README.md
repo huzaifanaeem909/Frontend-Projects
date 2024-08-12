@@ -48,8 +48,8 @@ This folder includes projects where JavaScript is integrated to add interactivit
 
 ### Projects:
 
-- **Project 1:** Brief description of the project.
-- **Project 2:** Brief description of the project.
-- **Project 3:** Brief description of the project.
+- **Recipe App:**  
+  A simple web app that lets users search for recipes or view a list of random recipes. Built with JavaScript and the Spoonacular API, it displays recipe details including ingredients and instructions. Features include search functionality, random recipe generation, and local storage for search results.
+- **Cook.io:** Brief description of the project.
 
 
