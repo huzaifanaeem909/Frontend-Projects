@@ -51,6 +51,19 @@ This folder includes projects where JavaScript is integrated to add interactivit
 - **Recipe App:**  
   A simple web app that lets users search for recipes or view a list of random recipes. Built with JavaScript and the Spoonacular API, it displays recipe details including ingredients and instructions. Features include search functionality, random recipe generation, and local storage for search results.
   
-- **Cook.io:** Brief description of the project.
+- **Cook.io:**  
+  A simple web app that lets users search for recipes or view a list of random recipes. Built with JavaScript and the Spoonacular API, it displays recipe details including ingredients and instructions. Features include search functionality, random recipe generation, and local storage for search results.
 
+### Live Demos
+
+Here are the live demos for each of the projects. Click on the links below to explore the fully functional versions and see how each project showcases different aspects of frontend development.
+
+<div align="center">
+
+| #   | Project               | Live Demo  
+|-----|-----------------------|------------
+| 01  | [Recipe App](https://github.com/huzaifanaeem909/Frontend-Projects/tree/main/JS%20Integrated%20Projects/Recipe-App) | [Live Demo](https://recipe-app-test-project.netlify.app/) |
+| 02  | [Cook.io](https://github.com/huzaifanaeem909/Frontend-Projects/tree/main/JS%20Integrated%20Projects/cook.io) | [Live Demo]() |
+
+</div>
 
